@@ -12,7 +12,7 @@ wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 
 
-wlan.connect('VM9273060', '58RXkuyabvdn')
+wlan.connect('******', '********')
 #time.sleep(1)
 
 

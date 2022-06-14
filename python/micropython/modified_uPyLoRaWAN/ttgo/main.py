@@ -1,6 +1,3 @@
-#import LoRaDuplexCallback
-#import LoRaPingPong
-#import LoRaSender
 from LoRaSender import Sender
 import LoRaReceiver
 from machine import UART
@@ -25,12 +22,3 @@ while True:
     if msg:
         sender.send(msg)
 
-#example = 'sender'
-#example = 'receiver'
-"""
-if __name__ == '__main__':
-    if example == 'sender':
-        LoRaSender.send(lora)
-    if example == 'receiver':
-        LoRaReceiver.receive(lora)
-"""
