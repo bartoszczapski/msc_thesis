@@ -1,0 +1,4 @@
+﻿Experiment,1 fail,2 fail,3 fail
+7 nodes with 3 failures,300,500,700
+5 nodes with 2 failures,500,700,
+3 nodes with 1 failure,500,,

@@ -1,0 +1,4 @@
+algorithm,7 nodes (3fails)
+RAFT,203.4981919332406
+Paxos,625.3394194756554
+No Algorithm,691.7508150908244

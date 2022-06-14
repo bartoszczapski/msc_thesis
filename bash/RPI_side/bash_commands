@@ -1,0 +1,14 @@
+sudo python3 /home/bart/lora/esptool/esptool.py --chip esp32 --port /dev/ttyUSB1 erase_flash
+
+sudo python3 /home/bart/lora/esptool/esptool.py --chip esp32 --port /dev/ttyUSB1 write_flash -z 0x1000 /home/bart/Downloads/esp32-20220117-v1.18.bin
+
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/config.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/config_lora.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/LoRaSender.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/LoRaReceiver.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/ssd1306_i2c.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/ssd1306.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/sx127x.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/main.py
+ampy --port /dev/ttyUSB1 --baud 115200 put /home/bart/lora/lora_test/uPyLoRaWAN_test/OledSetter.py
+
